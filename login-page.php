@@ -1,5 +1,4 @@
- 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 
    <head>
@@ -21,7 +20,7 @@
 
 <br>
 <br>
-
+<h5>Country</h5>
  <select size="4" name="pref">
  <option vlaue="1">US</option>
  <option vlaue="1">Japan</option>
@@ -36,21 +35,32 @@
 </select>
 
 
-
+<h5>Occupation<h5>
+   <input type="radio" name="job" value="1">IT
+   <input type="radio" name="job" value="2">Company
+   <input type="radio" name="job" value="3">Self Working
+   <input type="radio" name="job" value="5">Social Worker
+   <input type="radio" name="job" value="4">Student
+   <input type="radio" name="job" value="5">Not working
+ 
+ 
 <br>
-<br>
-
+<br> 
+ 
    <input type="submit" name="btn" value="送信">
    <input type="reset" value="Submit">
-
-
-   <br><br>
-   <a href="./index.html">skip<a>
 
 </form>
 
 
 
 
+
+   <br><br>
+
+    
+    
+    
+</form>
    </body>
    </html>
